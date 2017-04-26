@@ -1,0 +1,139 @@
+@@font-face {
+  font-family: "bebas";
+  src: url("../fonts/bebas___-webfont.woff") format("woff");
+  src: url("../fonts/bebas___-webfont.woff2") format("woff2");
+}
+
+body{
+  margin: 0;
+}
+
+figure{
+  margin: 0;
+}
+
+img{
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#banner {
+  margin-bottom: 1em;
+}
+
+h2{
+  text-transform: uppercase;
+  font-family: "bebas";
+  color: #395559;
+  letter-spacing: .2em;
+  text-align: center;
+  margin: .2em;
+}
+
+.features {
+  display: block;
+  max-width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+figcaption{
+  text-align: center;
+  font-family: "courier"
+}
+
+figcaption h5{
+  margin-top: -1em;
+  color: black;
+}
+
+figcaption h4{
+  margin-top: 1em;
+  color: #395559;
+}
+
+#lance{
+  color: #bebdb5;
+}
+
+#emily{
+  color: #80a39f;
+}
+
+#jade{
+  color: #796b84;
+}
+
+#beserious{
+  color: #d5a2a0;
+}
+
+#lymbo{
+  color: #8099b2;
+}
+
+#hotspots{
+  color: #395559;
+}
+
+#about{
+  background-color: #395559;
+  padding: 1em;
+}
+
+#about h2{
+  font-family: "bebas";
+  color: white;
+  text-align: left;
+  margin: 0 0 1em 0;
+}
+
+#about p{
+  font-family: "courier new";
+  color: white;
+  font-size: .8em;
+  line-height: 1.5em;
+  text-align: left;
+
+}
+
+#subscribe{
+  font-size: .6em;
+  padding: 1em;
+  line-height: 2.5em;
+  border-bottom: 4px solid #395559;
+  letter-spacing: normal;
+  background-color: #b9bbbd;
+}
+
+.create{
+  text-align: center;
+  border-bottom: 4px solid #395559;
+}
+
+#top{
+  text-align: center;
+  color: white;
+  font-family: "bebas";
+  color: white;
+  !background-color: #395559;
+  font-size: .8em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media(min-width: 48em){
+  #about{
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+}
+
+@media(min-width: 60em){
+  #about{
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+}
